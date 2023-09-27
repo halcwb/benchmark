@@ -1,0 +1,95 @@
+# Use an opt-in strategy
+*
+
+# Add .gitignore and .gitattributes
+!.gitignore
+!.gitattributes
+!.dockerignore
+
+# Add license
+!LICENSE.txt
+!LICENSE
+
+# Add todo list
+!ToDo.txt
+
+# Add md files
+!*.md
+
+# Add fsx files
+!*.fsx
+
+# Add build files
+!build.sh
+!build.cmd
+
+# Add build props
+!Directory.Build.props
+
+# Add global json
+!global.json
+
+# Add editor config
+!.editorconfig
+
+# Add vscode config
+!/.vscode/
+!/.vscode/*.json
+
+# Add proc and Docker file
+!Procfile
+!Dockerfile
+
+# Add local tools config
+!/.config/
+!/.config/*.json
+
+# Add paket targets
+!/.paket/
+!/.paket/Paket.Restore.targets
+
+# Add github folder
+!/.github
+!/.github/*
+!/.github/ISSUE_TEMPLATE/
+!/.github/ISSUE_TEMPLATE/*
+!/.github/workflows/
+!/.github/workflows/*
+
+# Add devcontainer
+!/.devcontainer/
+!/.devcontainer/*
+
+# Add dependencies file
+!paket.dependencies
+!paket.lock
+!paket.references
+!paket.template
+
+!package.json
+!package-lock.json
+
+# Add yml files to ci on appveyor and travis
+!appveyor.yml
+!.travis.yml
+
+# Add solution file
+!*.sln
+
+# Add fsharp project files
+!*.fsproj
+
+# Add configurarion files
+!App.config
+
+# Add fsharp source files
+!*.fs
+
+!/Rational/
+!/Rational/*.fs
+
+!/Rational/BenchmarkDotNet.Artifacts/
+!/Rational/BenchmarkDotNet.Artifacts/results/
+!/Rational/BenchmarkDotNet.Artifacts/results/*
+
+
